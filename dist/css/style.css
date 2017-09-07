@@ -1,0 +1,112 @@
+body{
+	background-color: lightblue;
+	font-family: 'Droid Serif', serif;
+}
+
+.table{
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+table#editTable.table>tbody>tr>td{
+    border-color: white;
+    border: 0px;
+    border-top: 0px;
+}
+
+.table #col1{
+    width: 25%;
+}
+.table #col21{
+    width: 15%;
+}
+.table #col3{
+    width: 25%;
+}
+.table #col4{
+    width: 40%;
+}
+
+#addrow {
+    background-color: white;
+    width: 70%;
+}
+.row{
+	margin-top: 5px;
+    background: White;
+    background-color: white;
+	border:0px solid white;
+}
+
+.container {
+  background-color: white;
+}
+
+.photo img {
+    width: 300px important!; 
+    height: auto important!; 
+}
+
+.input_label {
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    background: lightblue;
+    border: 1px solid #CCC;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #FFF;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 0;
+    width: 50px !important;
+}
+
+tr#cont input[type=text] {
+    -moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    background: #FFFFFF;
+    border: 1px solid #555;
+    border-radius: 0 5px 5px 0;
+    color: #555;
+    line-height: 36px;
+    margin: 0 8px 0 -5px;
+    outline: none;
+    width: 90%;
+    height: 36px;
+}
+
+form#editForm {
+
+}
+
+label {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 10px;
+}
+
+.form-control ,.thumbnail{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail{
+	background-color: Linen;
+	border-radius: 5px;
+	margin-top:10px;
+	border:10px solid white;
+}
+
+@media only screen and (min-width:960px) {
+    .thumbnail {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+.breadcrumb{
+	background-color: white;
+}
+
+nav a{
+	text-decoration: none;
+}

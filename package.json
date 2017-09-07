@@ -1,0 +1,43 @@
+{
+  "name": "users-manager",
+  "version": "1.0.0",
+  "description": "Simple users manager app",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Aylon Spigel",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "browserify": "^14.4.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "flux": "^3.1.3",
+    "gulp": "*",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "object-assign": "^4.1.1",
+    "reactify": "*",
+    "vinyl-source-stream": "*",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.5.2",
+    "eslint": "^4.6.1",
+    "prop-types": "^15.5.10",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9"
+  }
+}
